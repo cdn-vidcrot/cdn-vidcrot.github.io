@@ -46,7 +46,7 @@
 
         function loadVideo(ext = ".mp4") {
             if (!VIDEO_ID) {
-                document.body.innerHTML = `<p style="color:#fff; text-align:center; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:20px;">Gunakan format: ?id=VIDEO_ID</p>`;
+                document.body.innerHTML = ``;
                 return;
             }
             video.src = baseUrl + VIDEO_ID + ext;
